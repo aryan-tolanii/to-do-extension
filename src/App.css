@@ -1,0 +1,113 @@
+.todo-input {
+    height: 20px;
+    border-radius: 4px;
+    background-color: hsl(0, 0%, 80%);
+    color: black;
+    font-size: medium;
+}
+
+.todo-btn {
+    height: 23px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: medium;
+    cursor: pointer;
+    background-color: hsl(240, 100%, 85%);
+    border: 1px solid black;
+    font-weight: 500;
+    border-radius: 4px;
+
+    &&:hover {
+        background-color: hsl(240, 100%, 70%);
+    }
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 5px;
+}
+
+h1 {
+    padding-left: 5px;
+    color: hsl(0, 0%, 25%);
+}
+
+span {
+    color: hsl(240, 100%, 70%);
+}
+
+.todo-value {
+    margin-left: 8px;
+    list-style-type: none;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 80%);
+    box-shadow: 5px 5px 10px gray;
+    width: max-content;
+}
+
+.todo-checkbox {
+    cursor: pointer;
+}
+
+.todo-body {
+    background: transparent;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.todo-del-btn {
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(120, 100%, 70%);
+
+    &&:hover {
+        cursor: pointer;
+        background: hsl(120, 100%, 40%);
+    }
+}
+
+/* Make the entire background transparent */
+html,
+body {
+    background-color: transparent !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.app-container {
+    background-color: hsl(0, 0%, 90%);
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.no-todo {
+    font-size: medium;
+}
+
+.todo-label {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-value {
+    max-width: 400px;
+    min-width: 250px;
+}
+
+.todo-text {
+    flex: 1;
+    word-wrap: break-word;
+    padding-right: 10px;
+    color: black;
+}
