@@ -1,4 +1,4 @@
-To-Do List Browser Extension
+<b>To-Do List Browser Extension<b/>
 
 A simple and lightweight browser extension that allows users to add and remove tasks while surfing the web. Stay organized and boost productivity with this easy-to-use to-do list.
 
