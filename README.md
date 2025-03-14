@@ -14,18 +14,20 @@ Persistent Storage: Tasks remain saved even after closing the browser.
 Minimalist UI: Clean and simple design for distraction-free task management.
 
 Installation
+<hr />
 
 Clone or download this repository.
 
-Open your browser and navigate to chrome://extensions/ (for Chrome-based browsers) or about:addons (for Firefox).
+Open your browser and navigate to extensions.
 
-Enable Developer mode (Chrome) or select Debug Add-ons (Firefox).
+Enable Developer mode.
 
 Click Load unpacked and select the extension folder.
 
 The extension will now be available in your browser.
 
 Usage
+<hr />
 
 Click on the extension icon to open the to-do list popup.
 
@@ -36,6 +38,7 @@ Click on a task to remove it when completed.
 Close the popup, and your tasks will be saved.
 
 Technologies Used
+<hr />
 
 HTML
 
@@ -44,5 +47,6 @@ CSS (Tailwind CSS for styling)
 JavaScript
 
 Contributing
+<hr />
 
 Contributions are welcome! Feel free to submit pull requests or open issues for improvements and bug fixes.
