@@ -33,7 +33,7 @@ Click on the extension icon to open the to-do list popup.
 
 Enter a task and press Add.
 
-Click on a task to remove it when completed.
+Click on done to remove the task when it's completed.
 
 Close the popup, and your tasks will be saved.
 
