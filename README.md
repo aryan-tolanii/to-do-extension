@@ -50,7 +50,7 @@ Contributing
 <hr />
 
 Contributions are welcome! Feel free to submit pull requests or open issues for improvements and bug fixes.
-<br/>
+<br/> >br/>
 License
-<hr />
+<hr /> <br/>
 This project is licensed under the MIT License
