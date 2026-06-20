@@ -24,6 +24,12 @@ function App() {
     }
   }
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      submitHandler();
+    }
+  }
+
   const deleteHandler = (index) => {
     const updatedTodos = todos.filter((_, i) => i !== index);
     setTodos(updatedTodos);
@@ -33,30 +39,30 @@ function App() {
   return (
     <div className="app-container">
       <h1><span>To-Do</span> List</h1>
+      
       <div className="App">
         <input
           placeholder="What's on your mind?"
           value={input}
           onChange={changeHandler}
+          onKeyDown={handleKeyPress}
           className="todo-input"
+          autoFocus
         />
         <button onClick={submitHandler} className="todo-btn">Add</button>
       </div>
 
       <div className='todo-value'>
-        <hr />
         {todos.length > 0 ? (
           todos.map((item, index) => (
-            <label className='todo-label' key={index}>
+            <div className='todo-label' key={index}>
               <span className='todo-text'>{item}</span>
               <button className='todo-del-btn' onClick={() => deleteHandler(index)}>Done</button>
-              <br />
-            </label>
+            </div>
           ))
         ) : (
           <p className="no-todo">No tasks yet. Add something!</p>
         )}
-        <hr />
       </div>
     </div>
   );
